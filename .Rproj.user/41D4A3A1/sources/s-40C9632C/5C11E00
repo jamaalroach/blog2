@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "407648714",
+    "hash" : "291296707",
     "id" : "5C11E00",
-    "lastKnownWriteTime" : 1549426669,
-    "last_content_update" : 1549426669524,
+    "lastKnownWriteTime" : 1549429253,
+    "last_content_update" : 1549429253295,
     "path" : "~/blog/tranquilpeak/content/post/2019-02-03-fangauge.Rmd",
     "project_path" : "content/post/2019-02-03-fangauge.Rmd",
     "properties" : {
-        "cursorPosition" : "109,0",
+        "cursorPosition" : "11,10",
         "last_setup_crc32" : "40C9632C1e512b61",
-        "scrollLine" : "98"
+        "scrollLine" : "0"
     },
     "relative_order" : 5,
     "source_on_save" : false,

@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3781716450",
+    "hash" : "2347151527",
     "id" : "FDD48B5B",
-    "lastKnownWriteTime" : 1549428346,
-    "last_content_update" : 1549428346728,
+    "lastKnownWriteTime" : 1549429478,
+    "last_content_update" : 1549429478258,
     "path" : "~/blog/tranquilpeak/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "151,21",
-        "scrollLine" : "132"
+        "cursorPosition" : "153,0",
+        "scrollLine" : "149"
     },
     "relative_order" : 1,
     "source_on_save" : false,
