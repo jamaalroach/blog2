@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2226567659",
+    "hash" : "3496338972",
     "id" : "E3D217D",
-    "lastKnownWriteTime" : 1549428239,
-    "last_content_update" : 1549428239630,
+    "lastKnownWriteTime" : 1549428428,
+    "last_content_update" : 1549428428752,
     "path" : "~/blog/tranquilpeak/content/post/2015-07-23-r-rmarkdown.Rmd",
     "project_path" : "content/post/2015-07-23-r-rmarkdown.Rmd",
     "properties" : {
-        "cursorPosition" : "6,10",
+        "cursorPosition" : "6,12",
         "scrollLine" : "0"
     },
     "relative_order" : 7,
