@@ -1,0 +1,2 @@
+"0","level<-game_tweets_ms_sent%>%group_by(fanof, sent_level)%>%summarise(count=n())"
+"0","ggplot(game_tweets_ms_sent, aes(x=matchminute, y=score_percent, colour=fanof), alpha=.2)+geom_jitter()"

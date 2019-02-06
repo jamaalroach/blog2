@@ -1,0 +1,6 @@
+"0","game_tweets_ms_sent<- read.csv(""gametweetms.csv"") #read"
+"0","game_tweets_ms_sent<-game_tweets_ms_sent%>%mutate(score_percent=(round(score*100,2)))"
+"0","levels(game_tweets_ms_sent$fanof)<-list(LFC=""Liverpool"", MCFC=""Manchester City"")#changed level names of fanof variable"
+"0","game_tweets_ms_sent<-game_tweets_ms_sent%>%mutate(sent_level=ifelse(score_percent>50,""Positive"", if_else(score_percent<50, ""Negative"", ""Neutral"")))#adeed variable"
+"0","#create sentiment measure data frame"
+"0","ms_sentiment_measure<-game_tweets_ms_sent%>%group_by(matchminute, fanof)%>%summarise(sent=mean(score_percent))"

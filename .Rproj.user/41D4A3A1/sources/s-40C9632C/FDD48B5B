@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549211823883.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FDD48B5B",
+    "lastKnownWriteTime" : 1549427085,
+    "last_content_update" : 1549427175552,
+    "path" : "~/blog/tranquilpeak/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "45,17",
+        "scrollLine" : "35"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

@@ -1,0 +1,8 @@
+"0","tweet_ranking<-game_tweets_ms_sent%>%select(screen_name, text, fanof, score_percent, matchminute)"
+"0","sample_sent<-tweet_ranking%>%arrange(desc(score_percent))%>%slice(1:5)%>%select(fanof, text, score_percent)#top to tweets"
+"0","low_sent<-tweet_ranking%>%arrange(desc(-score_percent))%>%slice(1:5)%>%select(fanof, text, score_percent)#top to tweets"
+"0","neutral_sent<-tweet_ranking%>%filter(score_percent==50.00)%>%slice(1:5)%>%select(fanof, text, score_percent)#top to tweets"
+"0","sample_sent<-rbind(sample_sent,neutral_sent, low_sent)"
+"0","names(sample_sent)<-c(""Fan of"", ""Tweet"", ""Sentiment %"")"
+"0"," "
+"0","formattable(sample_sent, align=c(""l"", ""c"", ""c""))"
