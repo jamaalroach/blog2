@@ -8,12 +8,12 @@ tags:
   - Barbados
   - R
 slug: Barbados Is Getting Hotter in four charts
-summary: Barbados is getting hotter in four charts
+
 draft: no
 thumbnailImagePosition: "left"
 thumbnailImage: images/th2.png
-image:
-- images/th2.png
+twitter:
+  image: images/th2.png
 
 ---
 

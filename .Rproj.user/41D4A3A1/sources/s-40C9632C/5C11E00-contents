@@ -8,12 +8,12 @@ tags:
   - R
   - Football
   - Twitter
-summary: Tracking fan sentiment through tweets
+
 draft: no
-image: images/gtech2.jpg
 thumbnailImagePosition: "left"
 thumbnailImage: images/gtech2.jpg
-
+twitter:
+  image: images/gtech2.jpg
 
 ---
 
