@@ -1,5 +1,5 @@
 ---
-title: '#FanGauge | Twitter Sentiment Analysis'
+title: '#FanGauge |Tweet Sentiment Tracker'
 author: ''
 date: '2019-01-22'   
 slug: fan-guage-twitter-sentiment-analysis
@@ -8,13 +8,12 @@ tags:
   - R
   - Football
   - Twitter
-summary: So this is not the football related content I had in mind **BUT** this analysis of Donald Trump's tweets on the Variance Explained blog got me thinking about ways to apply sentiment analysis to tweets.
+summary: Tracking fan sentiment through tweets
 draft: no
-image: img/mci.jpg
+image: images/gtech2.jpg
 thumbnailImagePosition: "left"
 thumbnailImage: images/gtech2.jpg
-images:
-- img/mci.jpg
+
 
 ---
 

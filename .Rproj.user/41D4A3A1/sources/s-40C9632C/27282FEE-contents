@@ -8,12 +8,12 @@ tags:
   - Barbados
   - R
 slug: Barbados Is Getting Hotter in four charts
-summary: Barbados is hot! It's a tropical paradise in the Caribbean its always been hot, but these days, thanks to global warming, it is hotter than ever before.
+summary: Barbados is getting hotter in four charts
 draft: no
 thumbnailImagePosition: "left"
 thumbnailImage: images/th2.png
-images:
-- img/heat.png
+image:
+- images/th2.png
 
 ---
 
