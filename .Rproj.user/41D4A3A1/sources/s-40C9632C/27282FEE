@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1643342785",
+    "hash" : "1310618529",
     "id" : "27282FEE",
-    "lastKnownWriteTime" : 1549462919,
-    "last_content_update" : 1549462919173,
+    "lastKnownWriteTime" : 1549494078,
+    "last_content_update" : 1549494078232,
     "path" : "~/blog/tranquilpeak/content/post/2019-02-03-testing.Rmd",
     "project_path" : "content/post/2019-02-03-testing.Rmd",
     "properties" : {
-        "cursorPosition" : "10,70",
+        "cursorPosition" : "12,29",
         "scrollLine" : "0"
     },
     "relative_order" : 2,
