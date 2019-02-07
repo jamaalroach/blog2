@@ -8,8 +8,8 @@ tags:
   - R
   - Football
   - Twitter
-summary: Ok, so this is not the football related content I had in mind **BUT** this analysis of Donald Trump's tweets on the Variance Explained blog got me thinking about ways to apply sentiment analysis to tweets.
-draft: yes
+summary: So this is not the football related content I had in mind **BUT** this analysis of Donald Trump's tweets on the Variance Explained blog got me thinking about ways to apply sentiment analysis to tweets.
+draft: no
 image: img/mci.jpg
 thumbnailImagePosition: "left"
 thumbnailImage: images/gtech2.jpg
@@ -21,15 +21,15 @@ images:
 
 
 <hr />
-<p>Ok, so this is not the football related content I had in mind <strong>BUT</strong> <a href="http://varianceexplained.org/r/trump-tweets/">this analysis of Donald Trump’s tweets on the Variance Explained blog</a> got me thinking about ways to apply sentiment analysis to tweets. So what is sentiment analysis…</p>
+<p>OK, so this is not the football related content I had in mind <strong>BUT</strong> <a href="http://varianceexplained.org/r/trump-tweets/">this analysis of Donald Trump’s tweets on the Variance Explained blog</a> got me thinking about ways to apply sentiment analysis to tweets. So what is sentiment analysis…</p>
 <blockquote>
 <p>Sentiment analysis is the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer’s attitude towards a particular topic, product, etc. is positive, negative, or neutral.</p>
 </blockquote>
 <p>Football twitter , is a treasure trove of sentiment with fans tweetimg constantly about clubs, players, managers and tactics but the most interesting posts are the live reactions during games. The #Fangauge (patent pending) will measure the sentiment of tweets by each teams fans during a game and visualise how it changes minute by minute.</p>
-<p>The data manipulation and visualisation were done using <a href="https://www.r-project.org/">R</a> and you can find the source data and code <a href="">here</a> and <a href="">here</a>.</p>
+<p>The data manipulation and visualisation were done using <a href="https://www.r-project.org/">R</a> and you can find the source data and code <a href="https://github.com/jamaalroach/blog2/tree/master/content/post">here</a>.</p>
 <div id="the-game" class="section level2">
 <h2>The Game</h2>
-<p>On January 3rd 2019, Manchester City faced Liverpool in the <a href="">English Premier League</a>. It was a match between two of the best and most exciting teams in Europe, a game with high expectations and it did not disappoint. They were brilliant goals, spectacular saves, beautiful passing sequences, near misses and this goal line clearance.</p>
+<p>On January 3rd 2019, Manchester City faced Liverpool in the <a href="https://www.premierleague.com/">English Premier League</a>. It was a match between two of the best and most exciting teams in Europe, a game with high expectations and it did not disappoint. They were brilliant goals, spectacular saves, beautiful passing sequences, near misses and this goal line clearance.</p>
 <p><img src="/images/clearance.jpg" width="100%" /></p>
 <p>Everything needed to take both sets of fans from joy to despair, multiple times over the 90+ minutes of play.</p>
 </div>
@@ -40,7 +40,7 @@ images:
 </div>
 <div id="the-feels" class="section level2">
 <h2>The Feels</h2>
-<p>The analysis was done by <a href="">Microsoft Cognitive Services Text Analytics APIs</a>, which uses a <a href="">machine learning</a> classification algorithm to generate a sentiment score between 0 and 1. Scores closer to 1 indicate positive sentiment, while scores closer to 0 indicate negative sentiment. I then converted the scores to percentages.</p>
+<p>The senitment analysis was done through <a href="https://azure.microsoft.com/en-us/services/cognitive-services/">Microsoft Cognitive Services</a> Text Analytics APIs, which uses a <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a> algorithm to generate a sentiment score between 0 and 1. Scores closer to 1 indicate positive sentiment, while scores closer to 0 indicate negative sentiment. I then converted the scores to percentages.</p>
 <p>Now i’m sure the folks at Redmond know what they are doing but let’s review the score of a sample of tweets to see if they pass the eye test.</p>
 <p><br></p>
 <table class="table table-condensed">
@@ -145,7 +145,5 @@ Fucking City!!!! #MCILIV
 <p>You can see the change for each fan base but its difficult to make a comparison and to besides a gauge suggests movement, so I did an animation and ……voila, #FanGauge!</p>
 <p><br></p>
 <p><img src="/post/2019-02-03-fangauge_files/figure-html/unnamed-chunk-15-1.gif" /><!-- --></p>
-</div>
-<div id="conclusion" class="section level2">
-<h2>Conclusion</h2>
+<p>I think this is a good proof of concept, and who knows, maybe you will see a #FanGauge tracking sentiment in real time, as part of one of the major football leagues or tournaments in the future.</p>
 </div>
