@@ -36,8 +36,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [author]
   name = "Jamaal Roach"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Professional "
+  bio = "Updating Priors"
+  job = "Problem Solver "
   location = "Barbados"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "jamaalroach@hotmail.com"
@@ -150,7 +150,7 @@ url = "https://www.linkedin.com/in/jamaalroach/"
   #    large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 1
+  sidebarBehavior = 2
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
   # There is many free CDN like Cloudinary or you can also use indirectly
