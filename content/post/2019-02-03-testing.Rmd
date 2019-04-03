@@ -15,6 +15,7 @@ thumbnailImage: images/th2.png
 twitter:
  - image: images/th2.png
 
+summary: Barbados is hot! It's a tropical paradise in the Caribbean it's always been hot, but these days, thanks to global warming, it is hotter than ever before.
 ---
 
 

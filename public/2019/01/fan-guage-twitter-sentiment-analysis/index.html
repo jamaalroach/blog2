@@ -284,19 +284,14 @@ if (!doNotTrack) {
 </blockquote>
 <p>Football twitter , is a treasure trove of sentiment with fans tweetimg constantly about clubs, players, managers and tactics but the most interesting posts are the live reactions during games. The #Fangauge (patent pending) will measure the sentiment of tweets by each teams fans during a game and visualise how it changes minute by minute.</p>
 <p>The data manipulation and visualisation were done using <a href="https://www.r-project.org/">R</a> and you can find the source data and code <a href="https://github.com/jamaalroach/blog2/tree/master/content/post">here</a>.</p>
-<div id="the-game" class="section level2">
-<h2>The Game</h2>
+<p>##The Game</p>
 <p>On January 3rd 2019, Manchester City faced Liverpool in the <a href="https://www.premierleague.com/">English Premier League</a>. It was a match between two of the best and most exciting teams in Europe, a game with high expectations and it did not disappoint. They were brilliant goals, spectacular saves, beautiful passing sequences, near misses and this goal line clearance.</p>
 <p><img src="/images/clearance.jpg" width="100%" /></p>
 <p>Everything needed to take both sets of fans from joy to despair, multiple times over the 90+ minutes of play.</p>
-</div>
-<div id="the-tweets" class="section level2">
-<h2>The Tweets</h2>
+<p>##The Tweets</p>
 <p>I collected tweets from on the day of the game which contained the words “Manchester City” or “Liverpool” or the official hashtag , “#MCILIV”. After removing retweets or duplicates and filtering for only those tweets posted during the game (including half-time), the challenge was to identify whether the tweets were from fans of the clubs. I selected tweets from users who had the club name or ,names associated with the club name, in their account description i.e self delcared fans. That left me with 1912 tweets, 1208 from Liverpool fans and 704 from Manchester City fans.</p>
 <p>.</p>
-</div>
-<div id="the-feels" class="section level2">
-<h2>The Feels</h2>
+<p>##The Feels</p>
 <p>The senitment analysis was done through <a href="https://azure.microsoft.com/en-us/services/cognitive-services/">Microsoft Cognitive Services</a> Text Analytics APIs, which uses a <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a> algorithm to generate a sentiment score between 0 and 1. Scores closer to 1 indicate positive sentiment, while scores closer to 0 indicate negative sentiment. I then converted the scores to percentages.</p>
 <p>Now i’m sure the folks at Redmond know what they are doing but let’s review the score of a sample of tweets to see if they pass the eye test.</p>
 <p><br></p>
@@ -320,7 +315,7 @@ Sentiment %
 MCFC
 </td>
 <td style="text-align:center;">
-<span class="citation">@ManCity</span> YESSSSSSSSSSSSSSSSSSSSSASSSSSSSSSSSSSSSSSSSSSS!!!!!!!!! Thank you, City!!!! <U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499><U+0001F499> <span class="citation">@aguerosergiokun</span> and <span class="citation">@LeroySane19</span> are the best!!!!!!!! #MCFC #MCILIV #ManCity
+<span class="citation">@ManCity</span> YESSSSSSSSSSSSSSSSSSSSSASSSSSSSSSSSSSSSSSSSSSS!!!!!!!!! Thank you, City!!!! &lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt;&lt;U+0001F499&gt; <span class="citation">@aguerosergiokun</span> and <span class="citation">@LeroySane19</span> are the best!!!!!!!! #MCFC #MCILIV #ManCity
 </td>
 <td style="text-align:center;">
 99.85
@@ -353,8 +348,8 @@ Man City 1-0 Liverpool <a href="https://t.co/Psq7ARdMQy" class="uri">https://t.c
 LFC
 </td>
 <td style="text-align:center;">
-<p><U+2753> Where do we go from here in the second half?</p>
-<U+0001F449> <a href="https://t.co/Uws9l53IHq" class="uri">https://t.co/Uws9l53IHq</a> <a href="https://t.co/TbolrwiRPH" class="uri">https://t.co/TbolrwiRPH</a>
+<p>&lt;U+2753&gt; Where do we go from here in the second half?</p>
+&lt;U+0001F449&gt; <a href="https://t.co/Uws9l53IHq" class="uri">https://t.co/Uws9l53IHq</a> <a href="https://t.co/TbolrwiRPH" class="uri">https://t.co/TbolrwiRPH</a>
 </td>
 <td style="text-align:center;">
 50.00
@@ -392,10 +387,8 @@ Fucking City!!!! #MCILIV
 <p><br></p>
 <p>As might be expected, fan sentiment changed in line with their teams scoring/ conceding goals. LFC created the better chances when the match was scoreless which would explain the positive sentiment of LFC fans vs the negative sentiment of the MCFC fans. While the difference in sentiment at 2-1 would be the increasing positivity of MCFC fans once the victory seemed secure coming closer to the end.</p>
 <p>All in all the scores seem reasonable both on the level of individual tweets and aggregate averages when compared to macth events.</p>
-</div>
-<div id="fangauge" class="section level2">
-<h2>FanGauge</h2>
-<p>After review I was pretty happy with the sentiment scoring, so let’s look put the #FanGauge together. Below is a plot of the average sentiment minute by minute throughout the match for each fan base.</p>
+<p>##FanGauge
+After review I was pretty happy with the sentiment scoring, so let’s look put the #FanGauge together. Below is a plot of the average sentiment minute by minute throughout the match for each fan base.</p>
 <p><br></p>
 <p><img src="/post/2019-02-03-fangauge_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 <p><br></p>
@@ -403,7 +396,6 @@ Fucking City!!!! #MCILIV
 <p><br></p>
 <p><img src="/post/2019-02-03-fangauge_files/figure-html/unnamed-chunk-15-1.gif" /><!-- --></p>
 <p>I think this is a good proof of concept, and who knows, maybe you will see a #FanGauge tracking sentiment in real time, as part of one of the major football leagues or tournaments in the future.</p>
-</div>
 
               
             </div>
