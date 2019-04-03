@@ -1,0 +1,68 @@
+---
+title: "Specimen Documents"
+subtitle: 
+author: 
+date: "2019/03/31"
+output:
+  xaringan::moon_reader:
+    css: [robot, robot-fonts]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: center, middle
+#### Name Search & Reservation
+
+
+```{r , echo=FALSE, out.width= '60%',   fig.align='centre'}
+knitr::include_graphics("nsr.png")
+```
+
+
+
+
+---
+class: center, middle
+#### Articles of Incorporation
+
+
+```{r , echo=FALSE, out.width= '60%',   fig.align='centre'}
+knitr::include_graphics("aic.png")
+```
+
+
+
+
+
+---
+class: center, middle
+#### Notice of Directors
+
+
+```{r , echo=FALSE, out.width= '60%',   fig.align='centre'}
+knitr::include_graphics("nd.png")
+```
+
+
+---
+class: center, middle
+#### Notice of Address
+
+
+```{r , echo=FALSE, out.width= '60%',   fig.align='centre'}
+knitr::include_graphics("na.png")
+```
+
+
+
+
+

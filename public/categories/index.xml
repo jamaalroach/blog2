@@ -19,5 +19,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Non Data Posts</title>
+      <link>/categories/non-data-posts/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/non-data-posts/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
