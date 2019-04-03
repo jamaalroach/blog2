@@ -11,13 +11,7 @@
         <section class="postShorten-group main-content-wrap">
           {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
           {{ range $paginator.Pages }}
-            {{ with .Description }}
-  {{ $.Scratch.Set "summary" (markdownify .) }}
-{{ else }}
-  {{ $.Scratch.Set "summary"
-    ((delimit (findRE "(<p.*?>.*?</p>\\s*)+" .Content) "[&hellip;] ") |plainify | truncate (default 200 .Site.Para.summary_length)(default " &hellip;" .Site.Params.text.truncated ) |replaceRE "&amp;" "&" | safeHTML) }}
-{{ end }}
-{{ $.Scratch.Get "summary" }}
+            {{ .Render "summary" }}
           {{ end }}
           {{ partial "pagination.html" . }}
         </section>
